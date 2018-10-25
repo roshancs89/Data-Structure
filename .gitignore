@@ -5,6 +5,8 @@ target/**
 # Ignore classpath
 *.classpath
 .setting/*
+.settings/*
+.project
 
 # Log file
 *.log
