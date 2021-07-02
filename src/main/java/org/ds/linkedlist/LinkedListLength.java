@@ -5,6 +5,14 @@ package org.ds.linkedlist;
  * length of linked list
  */
 public class LinkedListLength {
+    public Node getHead() {
+        return head;
+    }
+
+    public void setHead(Node head) {
+        this.head = head;
+    }
+
     Node head;
 
 
