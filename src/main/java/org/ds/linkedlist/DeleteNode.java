@@ -4,16 +4,15 @@ package org.ds.linkedlist;
 
 public class DeleteNode {
 
-    Node head;
-    static class Node{
-        int data;
-        Node next;
-
-        public Node(int data){
-            this.data = data;
-            this.next = null;
-        }
+    public Node getHead() {
+        return head;
     }
+
+    public void setHead(Node head) {
+        this.head = head;
+    }
+
+    Node head;
 
     /**
      * This program inserts node at the beginning of list
