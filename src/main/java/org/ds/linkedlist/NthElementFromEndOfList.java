@@ -1,7 +1,6 @@
 package org.ds.linkedlist;
 
 public class NthElementFromEndOfList {
-
     Node head;
 
     public static void main(String args[]){
@@ -15,6 +14,7 @@ public class NthElementFromEndOfList {
 
         NthElementFromEndOfList nthElem = new NthElementFromEndOfList();
         nthElem.head = linkedList.getHead();
+
 
         nthElem.printNthElemFromLast(3);
     }

@@ -1,5 +1,7 @@
 package org.ds.linkedlist;
 
+import org.ds.linkedlist.Node;
+
 
 
 public class DeleteNode {
